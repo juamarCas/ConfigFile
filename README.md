@@ -3,7 +3,7 @@ the config file is a txt file used to stablish parameters and configuration into
 
 This is an example of how is structured the configfile:
 Example 1:
-
+```
 !MQTT
 -host = localhost
 -port = 1883
@@ -13,8 +13,10 @@ Example 1:
 
 !DB
 -file = /path/to/my/sqlite/dbfile.db
-Example 2:
+```
 
+Example 2:
+```
 !MQTT
 -host = localhost
 -port = 1883
@@ -28,6 +30,8 @@ Example 2:
 -host = localhost
 -user = user
 -password = password
+```
+
 The file is separeted in two type of information:
 
 Groups: are denoted with a "!" before its name, is useful to split parameters and makes posible to have
